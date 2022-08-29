@@ -30,3 +30,4 @@ def selection_sort(data,drawArr,canvas):
 def shell_sort(data,drawArr,canvas):
     global time_start
     time_start = time.time()
+    gap = len(data) // 2
