@@ -31,3 +31,4 @@ def shell_sort(data,drawArr,canvas):
     global time_start
     time_start = time.time()
     gap = len(data) // 2
+    while gap > 0:
