@@ -26,3 +26,5 @@ def selection_sort(data,drawArr,canvas):
             j -= 1
         data[j+1] = key
     drawArr(data, ['green' for x in range(len(data))], canvas)
+    
+def shell_sort(data,drawArr,canvas):
